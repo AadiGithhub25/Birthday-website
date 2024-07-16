@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Birthday</title>
+</head>
+
+<body>
+    <h1 class='logo'>
+        Happy Bithday
+        <span>My Universe</span>
+    </h1>
+    <input class='planet9' id='pluto' type='radio' name='planet'>
+    <label class='menu pluto' for='pluto'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                Happy Birthday
+            </h2>
+        </div>
+    </label>
+    <input class='planet8' id='neptune' type='radio' name='planet'>
+    <label class='menu neptune' for='neptune'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                H
+            </h2>
+        </div>
+    </label>
+    <input class='planet7' id='uranus' type='radio' name='planet'>
+    <label class='menu uranus' for='uranus'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                A
+            </h2>
+        </div>
+    </label>
+    <input class='planet6' id='saturn' type='radio' name='planet'>
+    <label class='menu saturn' for='saturn'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                R
+            </h2>
+        </div>
+    </label>
+    <input class='planet5' id='jupiter' type='radio' name='planet'>
+    <label class='jupiter menu' for='jupiter'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                S
+            </h2>
+        </div>
+    </label>
+    <input class='planet4' id='mars' type='radio' name='planet' checked='checked'>
+    <label class='mars menu' for='mars'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                H
+            </h2>
+        </div>
+    </label>
+    <input class='planet3' id='earth' type='radio' name='planet' checked='checked'>
+    <label class='earth menu' for='earth'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                E
+            </h2>
+        </div>
+    </label>
+    <input class='planet2' id='venus' type='radio' name='planet' checked='checked'>
+    <label class='menu venus' for='venus'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                E
+            </h2>
+        </div>
+    </label>
+    <input class='planet1' id='mercury' type='radio' name='planet' checked='checked'>
+    <label class='menu mercury' for='mercury'>
+        <div class='preview'></div>
+        <div class='info'>
+            <h2>
+                <div class='pip'></div>
+                N
+            </h2>
+        </div>
+    </label>
+    <div class='solar'>
+        <div class='solar_systm'>
+            <div class='mercury planet'>
+                <div class='mercury planet_description'>
+                    <h2>Planet</h2>
+                    <h1>Mercury</h1>
+                    <p>Like Mercury, you are communicative, and it's one of the things I love most about you.</p>
+                    <label for='readMercury'>
+                        <a>
+                            Read Mor
+                            <span>e</span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='planet venus'>
+                <div class='planet_description venus'>
+                    <h2>Planet</h2>
+                    <h1>Venus</h1>
+                    <p>Like Venus, you embody love and beauty in the most enchanting ways. Your loving heart and
+                        beautiful spirit light up my life, making every moment with you feel magical.</p>
+                    <label for='readVenus'>
+                        <a>
+                            Read Mor
+                            <span>e</span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='earth planet'>
+                <div class='moon moon'>
+                    <h3></h3>
+                </div>
+                <div class='m trajectory'></div>
+                <div class='earth planet_description'>
+                    <h2>Planet</h2>
+                    <h1>Earth</h1>
+                    <p>Like Earth You are my home.</p>
+                    <label for='readEarth'>
+                        <a>
+                            Read Mor
+                            <span>e</span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='mars planet'>
+                <div class='deimos moon'>
+                </div>
+                <div class='d trajectory'></div>
+                <div class='moon phoebos'>
+                </div>
+                <div class='p trajectory'></div>
+                <div class='mars planet_description'>
+                    <h2>Planet</h2>
+                    <h1>Mars</h1>
+                    <p>Like Mars, you are courageous, facing every challenge with strength and determination.</p>
+                    <label for='readMars'>
+                        <a>
+                            Read Mor
+                            <span>e</span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='jupiter planet'>
+                <div class='lo moon'>
+                </div>
+                <div class='europa moon'>
+                </div>
+                <div class='ganymede moon'>
+                </div>
+                <div class='lop trajectory'></div>
+                <div class='eu trajectory'></div>
+                <div class='ga trajectory'></div>
+                <div class='jupiter planet_description'>
+                    <h2>Planet</h2>
+                    <h1>Jupiter</h1>
+                    <p>Like Jupiter, you shine with optimism and positivity in everything you do. </p>
+                    <label for='readJupiter'>
+                        <a>
+                            Read Mor
+                            <span>e</span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='planet saturn'>
+                <div class='moon titan'>
+                </div>
+                <div class='dione moon'>
+                </div>
+                <div class='enceladus moon'>
+                </div>
+                <div class='ti trajectory'></div>
+                <div class='di trajectory'></div>
+                <div class='enc trajectory'></div>
+                <div class='planet_description saturn'>
+                    <h2>Planet</h2>
+                    <h1>Saturn</h1>
+                    <p>Like Saturn is known for its stability you are the stability of my life.</p>
+                    <label for='readSaturn'>
+                        <a>
+                            Read Mor
+                            <span>e</span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='planet uranus'>
+                <div class='miranda moon'>
+                </div>
+                <div class='ariel moon'>
+                </div>
+                <div class='moon umbriel'></div>
+                <div class='mir trajectory'></div>
+                <div class='ari trajectory'></div>
+                <div class='trajectory umb'></div>
+                <div class='planet_description uranus'>
+                    <h2>Planet</h2>
+                    <h1>Uranus</h1>
+                    <p>Like Uranus i can see you independent in your life</p>
+                    <label for='readUranus'>
+                        <a>
+                            Read Mor
+                            <span>e</span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='neptune planet'>
+                <div class='moon triton'>
+                </div>
+                <div class='moon proteus'>
+                </div>
+                <div class='moon nereid'>
+                </div>
+                <div class='trajectory tri'></div>
+                <div class='pro trajectory'></div>
+                <div class='ner trajectory'></div>
+                <div class='neptune planet_description'>
+                    <h2>Planet</h2>
+                    <h1>Neptune</h1>
+                    <p>Like neptune you are compassionate, bro the way you care for people drives me cray sometimes.</p>
+                    <label for='readNeptune'>
+                        <a>
+                            Read Mor
+                            <span>e </span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'></div>
+            </div>
+        </div>
+        <div class='solar_systm'>
+            <div class='planet pluto'>
+                <div class='planet_description pluto'>
+                    <h2>Planet</h2>
+                    <h1>Pluto</h1>
+                    <p>and this is me the small and sweet pluto in your life but the only difference is this pluto will
+                        never disappear.</p>
+                    <label for='readPluto'>
+                        <a>
+                            Read Mor
+                            <span>e </span>
+                        </a>
+                    </label>
+                </div>
+                <div class='overlay'> </div>
+            </div>
+        </div>
+    </div>
+    <input class='read' id='readMercury' type='radio' name='mercuryRead'>
+    <label class='closeBig' for='closeMercury'></label>
+    <input class='read' id='closeMercury' type='radio' name='mercuryRead'>
+    <div class='panel'>
+        <h1>My Mercury</h1>
+        <video video autoplay loop muted width="250" height="200" style="object-fit: cover;">
+            <source src="Hgif.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Btw this is my mercury, It's the most communicative thing I've ever experienced she reassures me about every
+            little detail, which is what I love most about her. It is always happy when i am around her that means she
+            is always happy. Dont worry she is never gonna be sad cause I ain't gonna stop being around her, idk if
+            kabhi kabhi pareshan hojati hai but ik she is happy around me. Are you?</p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go to next planet.</p>
+    </div>
+    <input class='read' id='readVenus' type='radio' name='venusRead'>
+    <label class='closeBig' for='closeVenus'></label>
+    <input class='read' id='closeVenus' type='radio' name='venusRead'>
+    <div class='panel'>
+        <h1>My Venus</h1>
+        <video video autoplay loop muted width="300" height="300" style="object-fit: cover; transform: rotate(90deg);">
+            <source src="Hvenus.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Btw this is my Venus. Like venus keep on disappearing this Venus is also disappearing in the video but I know
+            it will never disappear from my life. I love my Venus and I never want it to disappear from my solar system.
+            I know you are never gonna disapper. Are you?</p>
+        <label for="no">
+            <input type="radio">
+            No
+        </label>
+        <p>Sorry there is no "Yes" as a option. So please click on No and go to next planet.</p>
+    </div>
+    <input class='read' id='readEarth' type='radio' name='earthRead'>
+    <label class='closeBig' for='closeEarth'></label>
+    <input class='read' id='closeEarth' type='radio' name='earthRead'>
+    <div class='panel'>
+        <h1>My Home</h1>
+        <img src='Hearth.jpg'>
+        <p>Btw this is me and my earth. I know you cannot see my face right now but kya jaldi hai i'll come back vaps
+            tab dekh lena. Lets talk about my home, this is my faviourate place.</p>
+        <p>Kyu puch rahe ho? kyuki baba my home is my Happy Place, the place where I feel Safe. I'll always need my Home
+            to be Safe and Happy. I know we change home sometimes but I also know I'll never feel itna zyada Safe and
+            Happy anywhere else and I want my home to understand this, that this chocolate chip cookie with unicorn
+            charm needs you to be its "Forever Home" and I want you ready for this. Are you?</p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go to next planet.</p>
+    </div>
+    <input class='read' id='readMars' type='radio' name='marsRead'>
+    <label class='closeBig' for='closeMars'></label>
+    <input class='read' id='closeMars' type='radio' name='marsRead'>
+    <div class='panel'>
+        <h1>My Mars</h1>
+        <video video autoplay loop muted width="300" height="300" style="object-fit: cover;">
+            <source src="Hmars.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>This is my Mars. Isn't she stunning? I know she is, especially in the morning. Good morning, my beautiful
+            Mars. Every day begins and ends with a message just for her. She's the light that guides me through each
+            day, no matter how challenging. Whenever I feel overwhelmed, I find strength knowing she'll be there. She's
+            my sanctuary, my constant support through every obstacle and I know she is always gonna be. Are you?</p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go to next planet.</p>
+    </div>
+    <input class='read' id='readJupiter' type='radio' name='jupiterRead'>
+    <label class='closeBig' for='closeJupiter'></label>
+    <input class='read' id='closeJupiter' type='radio' name='jupiterRead'>
+    <div class='panel'>
+        <h1>My Jupiter</h1>
+        <video video autoplay loop muted width="300" height="300" style="object-fit: cover;">
+            <source src="Hjupiter.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>This is my Jupiter. Just like Jupiter stands strong in space, my Jupiter is courageous and resilient. Moving
+            to a new city was a huge step for her, everything was unfamiliar, from finding a place to live to adjusting
+            to a new environment. Despite the sudden decision to relocate, she handled everything brilliantly. Now,
+            she's in Mumbai, and I couldn't be happier for her. I know she'll continue to manage everything wonderfully.
+            Would you?</p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go to next planet.</p>
+    </div>
+    <input class='read' id='readSaturn' type='radio' name='saturnRead'>
+    <label class='closeBig' for='closeSaturn'></label>
+    <input class='read' id='closeSaturn' type='radio' name='saturnRead'>
+    <div class='panel'>
+        <h1>My Saturn</h1>
+        <video video autoplay loop muted width="300" height="300" style="object-fit: cover;">
+            <source src="Hsaturn.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Btw this is my Saturn. This is the adorable face on which my life's stability depends. Just as Saturn brings
+            stability, my Saturn brings steadiness to my world. I sometimes marvel at how someone can be so perfect. You
+            are far more than I deserve, but I love you so much baba. You're absolutely perfect, my love, and I'm too
+            selfish to ever let you go. Don't worry, I'll do my best to keep you happy, I know you are Happy vaise bhi.
+            Are you? </p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go to next planet.</p>
+    </div>
+    <input class='read' id='readUranus' type='radio' name='uranusRead'>
+    <label class='closeBig' for='closeUranus'></label>
+    <input class='read' id='closeUranus' type='radio' name='uranusRead'>
+    <div class='panel'>
+        <h1>My Uranus</h1>
+        <video video autoplay loop muted width="300" height="300" style="object-fit: cover;">
+            <source src="Huranus.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Btw this is my Uranus. Just as Uranus stands independent in space, my Uranus is independent too. She only
+            needs me sometimes, and that's okay because I know she can handle everything on her own, with the assurance
+            that I'm always by her side. Just remember, my love, that I'm here for you no matter what and I am never
+            leaving baba. I know you know this right. Do you? </p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go to next planet.</p>
+    </div>
+    <input class='read' id='readNeptune' type='radio' name='neptuneRead'>
+    <label class='closeBig' for='closeNeptune'></label>
+    <input class='read' id='closeNeptune' type='radio' name='neptuneRead'>
+    <div class='panel'>
+        <h1>Neptune</h1>
+        <video video autoplay loop muted width="300" height="300" style="object-fit: cover;">
+            <source src="Hneptune.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Hieee Tanisha here!!! Btw this is me and my Neptune. Happyyyy birthdayyy bestaayyy urf gunnu.❤🥰 iloveyouuu the most🥺 thankyou for always
+            being with me! I miss going to gym, going to rana with you, our subah ki chai before attending rana ka
+            lecture, and ofc mohan ke momos😂😭i love our facetime calls (literally doing the most random things and
+            staying quiet is not awkward for some reason)🤭 stay same hmesha💗 Always there for you, you know it well.
+            Do you?</p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go to next planet.</p>
+        <p style="text-align: right;">-Tanisha</p>
+    </div>
+    <input class='read' id='readPluto' type='radio' name='plutoRead'>
+    <label class='closeBig' for='closePluto'></label>
+    <input class='read' id='closePluto' type='radio' name='plutoRead'>
+    <div class='panel'>
+        <h1>This is me Pluto</h1>
+        <img src='Hpluto.jpg'>
+        <p>Hieee!!! It's finally me, sending the warmest birthday wishes to my Universe, Ms. Harsheen Grover. Happy
+            Birthday, my love. I want you to always remember that I'm here for you, no matter what. When it feels like
+            there's no way forward, I'll be by your side. When the world throws everything at you, I'll stand with you.
+            Whether it's a solitary path or a crowded room, I'll always be there. I may not be perfect, but I promise to
+            strive to be better every day for you. I regret not being there with you on this special day, but know that
+            my presence is always with you, even if not physically.Your strength and resilience inspire me endlessly.
+            Today and every day, I celebrate the incredible person you are and the love we share. As you embark on
+            another year of adventures and growth, remember that my heart beats for you, no matter the distance. Here's
+            to a birthday filled with joy, laughter, and all the happiness the universe has to offer. You're my
+            everything, today and always.</p>
+        <p>Wishing a Happy Birthday to my Universe!!!</p>
+        <p>Final question. Are you not gonna be sad bilkul bhi and enjoy your bday to the fullest.</p>
+        <label for="yes">
+            <input type="radio">
+            Yes
+        </label>
+        <p>Sorry there is no "No" as a option. So please click on yes and go enjoy your badday.</p>
+    </div>
+</body>
+
+</html>
